@@ -1,8 +1,8 @@
-package com.develop.chocoengine.bakerydiary.dao
+package com.develop.chocoengine.bakerydiary.database.dao
 
 import android.arch.persistence.room.Dao
 import android.arch.persistence.room.Query
-import com.develop.chocoengine.bakerydiary.entity.PhaseDictionary
+import com.develop.chocoengine.bakerydiary.database.entity.PhaseDictionary
 
 @Dao
 interface PhaseDictionaryDao {
